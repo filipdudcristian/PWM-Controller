@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1704720968">
+  <File Type="ROUTE-PWR" Name="pwm_led_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="pwm_led.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="pwm_led_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="pwm_led_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="pwm_led.msk"/>
+  <File Type="ROUTE-CLK" Name="pwm_led_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="pwm_led.vdi"/>
+  <File Type="BG-BIT" Name="pwm_led.bit"/>
+  <File Type="BG-DRC" Name="pwm_led.drc"/>
+  <File Type="BG-BGN" Name="pwm_led.bgn"/>
+  <File Type="BG-BIN" Name="pwm_led.bin"/>
+  <File Type="BITSTR-RBT" Name="pwm_led.rbt"/>
+  <File Type="BITSTR-NKY" Name="pwm_led.nky"/>
+  <File Type="BITSTR-BMM" Name="pwm_led_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="pwm_led.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="pwm_led_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="pwm_led.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="pwm_led.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="pwm_led_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="pwm_led.hwdef"/>
+  <File Type="PLACE-IO" Name="pwm_led_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="pwm_led_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="pwm_led_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="pwm_led_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="pwm_led_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="pwm_led_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="pwm_led_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="pwm_led_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="pwm_led_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="pwm_led_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="pwm_led_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="pwm_led_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="pwm_led_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="pwm_led_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="pwm_led_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="pwm_led_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW" Name="pwm_led_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="pwm_led_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="pwm_led_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="pwm_led_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="pwm_led_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="pwm_led_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="pwm_led_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="pwm_led_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="pwm_led_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="pwm_led_postroute_physopt_bb.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="pwm_led_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="pwm_led_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="pwm_led_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="pwm_led.pdi"/>
+  <File Type="RCFI_FILE" Name="pwm_led.rcfi"/>
+  <File Type="CFI_FILE" Name="pwm_led.cfi"/>
+  <File Type="RNPI_FILE" Name="pwm_led.rnpi"/>
+  <File Type="NPI_FILE" Name="pwm_led.npi"/>
+  <File Type="RBD_FILE" Name="pwm_led.rbd"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/HexToPercentage.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../pwm_test/pwm_test.srcs/sources_1/new/HexToPercentage.vhd"/>
+        <Attr Name="ImportTime" Val="1704040956"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/SSD.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/imports/new/SSD.vhd"/>
+        <Attr Name="ImportTime" Val="1678636115"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/counter.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Filip-Dud Cristian/Desktop/pwm_led/src/counter.vhd"/>
+        <Attr Name="ImportTime" Val="1588274612"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/debounce.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/imports/new/debounce.vhd"/>
+        <Attr Name="ImportTime" Val="1696515448"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/pwm.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Filip-Dud Cristian/Desktop/pwm_led/src/pwm.vhd"/>
+        <Attr Name="ImportTime" Val="1588772106"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/sine_rom.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../led_breathing/src/sine_rom.vhd"/>
+        <Attr Name="ImportTime" Val="1589465166"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/pwm_led.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Filip-Dud Cristian/Desktop/pwm_led/src/pwm_led.vhd"/>
+        <Attr Name="ImportTime" Val="1588772106"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/pwm_led_tb.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="C:/Users/Filip-Dud Cristian/Desktop/pwm_led/src/pwm_led_tb.vhd"/>
+        <Attr Name="ImportTime" Val="1588805468"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="pwm_led"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/AC/Basys3_test_env.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/constrs_1/imports/AC/Basys3_test_env.xdc"/>
+        <Attr Name="ImportTime" Val="1701448225"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/pwm_led.dcp">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../pwm_test/pwm_test.srcs/utils_1/imports/synth_1/pwm_led.dcp"/>
+        <Attr Name="ImportTime" Val="1704720896"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>
